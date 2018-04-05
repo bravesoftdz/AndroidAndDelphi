@@ -1,0 +1,405 @@
+inherited HeaderFooterForm_LgXhdpiPh: THeaderFooterForm_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 0
+  inherited Header: TToolBar
+    Size.Width = 450.000000000000000000
+    TintColor = claSeagreen
+    inherited HeaderLabel: TLabel
+      Size.Width = 450.000000000000000000
+    end
+    inherited Return: TSpeedButton
+      IconTintColor = claBlack
+    end
+    inherited Layout22: TLayout
+      inherited List: TSpeedButton
+        IconTintColor = claBlack
+        Size.Width = 50.000000000000000000
+      end
+    end
+    inherited Layout24: TLayout
+      Align = Left
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      inherited ReturnFromFilms: TSpeedButton
+        Size.Width = 50.000000000000000000
+      end
+    end
+  end
+  inherited Footer: TToolBar
+    Position.Y = 647.000000000000000000
+    Size.Width = 450.000000000000000000
+    TintColor = claSeagreen
+  end
+  inherited TabControl1: TTabControl
+    Size.Width = 450.000000000000000000
+    Size.Height = 599.000000000000000000
+    Sizes = (
+      450s
+      599s
+      450s
+      599s
+      450s
+      599s
+      450s
+      599s)
+    inherited TabItem2: TTabItem
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      inherited Layout1: TLayout
+        Size.Width = 450.000000000000000000
+        inherited Layout9: TLayout
+          inherited Layout10: TLayout
+            inherited Label2: TLabel
+              Size.Width = 69.000000000000000000
+            end
+          end
+        end
+      end
+      inherited Layout2: TLayout
+        Size.Width = 450.000000000000000000
+        inherited Layout6: TLayout
+          inherited Layout7: TLayout
+            inherited Label1: TLabel
+              Size.Width = 65.000000000000000000
+            end
+          end
+        end
+      end
+      inherited Layout3: TLayout
+        Size.Width = 450.000000000000000000
+        inherited Layout4: TLayout
+          Size.Width = 450.000000000000000000
+          inherited Button1: TButton
+            StyledSettings = [Family, Size, Style]
+            TextSettings.FontColor = claWhite
+            TintColor = claSeagreen
+          end
+        end
+        inherited Layout5: TLayout
+          Size.Width = 450.000000000000000000
+          inherited Button2: TButton
+            Size.Width = 124.000000000000000000
+            TextSettings.FontColor = claWhite
+            TintColor = claSeagreen
+          end
+        end
+      end
+    end
+    inherited TabItem1: TTabItem
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      inherited Layout12: TLayout
+        Size.Width = 450.000000000000000000
+        inherited Layout16: TLayout
+          inherited Layout19: TLayout
+            inherited Label3: TLabel
+              Text = #1042#1074#1077#1076#1080#1090#1077' '#1080#1084#1103
+            end
+          end
+        end
+      end
+      inherited Layout13: TLayout
+        Size.Width = 450.000000000000000000
+        inherited Layout17: TLayout
+          inherited Layout20: TLayout
+            inherited Label4: TLabel
+              Size.Width = 133.000000000000000000
+            end
+          end
+        end
+      end
+      inherited Layout14: TLayout
+        Size.Width = 450.000000000000000000
+        inherited Layout18: TLayout
+          inherited Layout21: TLayout
+            inherited Label5: TLabel
+              Size.Width = 145.000000000000000000
+            end
+          end
+        end
+      end
+      inherited Layout15: TLayout
+        Size.Width = 450.000000000000000000
+        inherited Button3: TButton
+          Size.Width = 188.000000000000000000
+          TintColor = claSeagreen
+        end
+      end
+    end
+    inherited TabItem3: TTabItem
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      inherited ListBox1: TListBox
+        Size.Width = 450.000000000000000000
+        Size.Height = 599.000000000000000000
+        OnChange = ListBox1Change
+        Viewport.Width = 450.000000000000000000
+        Viewport.Height = 599.000000000000000000
+      end
+      inherited MultiView1: TMultiView
+        Size.Height = 599.000000000000000000
+        Visible = True
+        inherited Rectangle1: TRectangle
+          Size.Height = 146.000000000000000000
+          inherited AEmail: TLabel
+            Margins.Left = 10.000000000000000000
+            Position.X = 10.000000000000000000
+            Position.Y = 114.000000000000000000
+            Size.Width = 242.000000000000000000
+            Size.Height = 32.000000000000000000
+            Text = ''
+          end
+          inherited AName: TLabel
+            Margins.Left = 10.000000000000000000
+            Position.X = 10.000000000000000000
+            Position.Y = 82.000000000000000000
+            Size.Width = 242.000000000000000000
+            Size.Height = 32.000000000000000000
+            Text = ''
+          end
+        end
+        inherited Rectangle2: TRectangle
+          Size.Height = 454.000000000000000000
+          inherited SpeedButton4: TSpeedButton
+            StyledSettings = [Family, Size, Style]
+            Margins.Left = 10.000000000000000000
+            Position.X = 10.000000000000000000
+            Size.Width = 240.000000000000000000
+            Text = #1043#1083#1072#1074#1085#1072#1103
+            TextSettings.HorzAlign = Leading
+            Visible = False
+          end
+          inherited Line1: TLine
+            Size.Height = 9.000000000000000000
+            Stroke.Color = claGray
+            Visible = False
+          end
+          inherited Label6: TLabel
+            Margins.Left = 10.000000000000000000
+            Position.X = 10.000000000000000000
+            Position.Y = 57.000000000000000000
+            Size.Width = 240.000000000000000000
+            Size.Height = 32.000000000000000000
+            Text = #1050#1072#1090#1072#1083#1086#1075' '#1092#1080#1083#1100#1084#1086#1074
+            Visible = False
+          end
+          inherited SpeedButton1: TSpeedButton
+            Margins.Left = 10.000000000000000000
+            Position.X = 10.000000000000000000
+            Position.Y = 57.000000000000000000
+            Size.Width = 240.000000000000000000
+            Text = #1055#1086' '#1078#1072#1085#1088#1072#1084
+            TextSettings.HorzAlign = Leading
+            Visible = False
+          end
+          inherited SpeedButton2: TSpeedButton
+            Margins.Left = 10.000000000000000000
+            Position.X = 10.000000000000000000
+            Position.Y = 9.000000000000000000
+            Size.Width = 240.000000000000000000
+            Text = #1055#1086' '#1075#1086#1076#1072#1084
+            TextSettings.HorzAlign = Leading
+            Visible = False
+          end
+          inherited SpeedButton3: TSpeedButton
+            Margins.Left = 10.000000000000000000
+            Position.X = 10.000000000000000000
+            Position.Y = 57.000000000000000000
+            Size.Width = 240.000000000000000000
+            Text = #1055#1086' '#1085#1072#1075#1088#1072#1076#1072#1084
+            TextSettings.HorzAlign = Leading
+            Visible = False
+          end
+          inherited SpeedButton5: TSpeedButton
+            Margins.Left = 10.000000000000000000
+            Position.X = 10.000000000000000000
+            Position.Y = 57.000000000000000000
+            Size.Width = 240.000000000000000000
+            Text = #1055#1086' '#1072#1082#1090#1077#1088#1072#1084
+            TextSettings.HorzAlign = Leading
+            Visible = False
+          end
+          inherited SpeedButton6: TSpeedButton
+            Margins.Left = 10.000000000000000000
+            Position.X = 10.000000000000000000
+            Position.Y = 201.000000000000000000
+            Size.Width = 240.000000000000000000
+            Text = #1055#1086' '#1088#1077#1078#1080#1089#1089#1077#1088#1072#1084
+            TextSettings.HorzAlign = Leading
+            Visible = False
+          end
+          inherited Line2: TLine
+            Size.Height = 9.000000000000000000
+            Stroke.Color = claGray
+          end
+          inherited Label7: TLabel
+            Margins.Left = 10.000000000000000000
+            Position.X = 10.000000000000000000
+            Position.Y = 9.000000000000000000
+            Size.Width = 240.000000000000000000
+            Size.Height = 32.000000000000000000
+            Text = #1055#1088#1080#1083#1086#1078#1077#1085#1080#1077
+          end
+          inherited SpeedButton7: TSpeedButton
+            Margins.Left = 10.000000000000000000
+            Position.X = 10.000000000000000000
+            Position.Y = 41.000000000000000000
+            Size.Width = 240.000000000000000000
+            Text = #1042#1099#1093#1086#1076
+            TextSettings.HorzAlign = Leading
+            OnClick = SpeedButton7Click
+          end
+        end
+      end
+    end
+    inherited TabItem4: TTabItem
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      inherited Layout23: TLayout
+        Align = Top
+        Size.Width = 450.000000000000000000
+        Size.Height = 241.000000000000000000
+        Size.PlatformDefault = False
+        inherited Image1: TImage
+          Align = Left
+          Margins.Left = 10.000000000000000000
+          Margins.Top = 10.000000000000000000
+          Position.X = 10.000000000000000000
+          Position.Y = 10.000000000000000000
+          Size.Width = 153.000000000000000000
+          Size.Height = 231.000000000000000000
+          Size.PlatformDefault = False
+        end
+        inherited Layout25: TLayout
+          Align = Client
+          Size.Width = 287.000000000000000000
+          Size.Height = 241.000000000000000000
+          Size.PlatformDefault = False
+          inherited Year: TLabel
+            Align = Top
+            Size.Width = 287.000000000000000000
+            Size.PlatformDefault = False
+            Text = ''
+          end
+          inherited Label8: TLabel
+            Align = Top
+            StyledSettings = [Family, Style, FontColor]
+            Margins.Left = 10.000000000000000000
+            Position.X = 10.000000000000000000
+            Position.Y = 23.000000000000000000
+            Size.Width = 277.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 11.000000000000000000
+            Text = #1075#1086#1076
+          end
+          inherited Label9: TLabel
+            Align = Top
+            StyledSettings = [Family, Style, FontColor]
+            Margins.Left = 10.000000000000000000
+            Position.X = 10.000000000000000000
+            Position.Y = 138.000000000000000000
+            Size.Width = 277.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 11.000000000000000000
+            Text = #1089#1090#1088#1072#1085#1072
+          end
+          inherited Label13: TLabel
+            Align = Top
+            StyledSettings = [Family, Style, FontColor]
+            Margins.Left = 10.000000000000000000
+            Position.X = 10.000000000000000000
+            Position.Y = 115.000000000000000000
+            Size.Width = 277.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 11.000000000000000000
+            Text = #1074#1088#1077#1084#1103
+          end
+          inherited Label12: TLabel
+            Align = Top
+            StyledSettings = [Family, Style, FontColor]
+            Margins.Left = 10.000000000000000000
+            Position.X = 10.000000000000000000
+            Position.Y = 92.000000000000000000
+            Size.Width = 277.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 11.000000000000000000
+            Text = #1074#1086#1079#1088#1072#1089#1090
+          end
+          inherited Label11: TLabel
+            Align = Top
+            StyledSettings = [Family, Style, FontColor]
+            Margins.Left = 10.000000000000000000
+            Position.X = 10.000000000000000000
+            Position.Y = 69.000000000000000000
+            Size.Width = 277.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 11.000000000000000000
+            Text = #1073#1102#1076#1078#1077#1090
+          end
+          inherited Label10: TLabel
+            Align = Top
+            StyledSettings = [Family, Style, FontColor]
+            Margins.Left = 10.000000000000000000
+            Position.X = 10.000000000000000000
+            Position.Y = 46.000000000000000000
+            Size.Width = 277.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 11.000000000000000000
+            Text = #1089#1090#1091#1076#1080#1103
+          end
+          inherited Label14: TLabel
+            Align = Top
+            StyledSettings = [Family, Style, FontColor]
+            Margins.Left = 10.000000000000000000
+            Position.X = 10.000000000000000000
+            Position.Y = 161.000000000000000000
+            Size.Width = 277.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 11.000000000000000000
+            Text = #1078#1072#1085#1088
+          end
+          inherited Label15: TLabel
+            Align = Top
+            StyledSettings = [Family, Style, FontColor]
+            Margins.Left = 10.000000000000000000
+            Position.X = 10.000000000000000000
+            Position.Y = 184.000000000000000000
+            Size.Width = 277.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 11.000000000000000000
+            Text = #1088#1077#1078#1080#1089#1089#1077#1088
+          end
+        end
+      end
+      inherited Memo1: TMemo
+        StyledSettings = [Family, Style, FontColor]
+        TextSettings.Font.Size = 11.000000000000000000
+        TextSettings.HorzAlign = Center
+        Align = Client
+        Enabled = False
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        Size.Width = 430.000000000000000000
+        Size.Height = 338.000000000000000000
+        Size.PlatformDefault = False
+        Viewport.Width = 430.000000000000000000
+        Viewport.Height = 338.000000000000000000
+      end
+    end
+  end
+  inherited FDConnection1: TFDConnection
+    Left = 352
+    Top = 370
+  end
+  inherited FDQuery1: TFDQuery
+    Left = 352
+    Top = 440
+  end
+  inherited BindSourceDB1: TBindSourceDB
+    Left = 368
+    Top = 322
+  end
+end
